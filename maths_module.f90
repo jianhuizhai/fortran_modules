@@ -4,7 +4,8 @@ MODULE maths_module
     IMPLICIT NONE
     PRIVATE
 
-    PUBLIC :: init_random_seed
+    PUBLIC :: init_random_seed, normaldist
+    PUBLIC :: cross, tensorMultVector, vectorTMultVector
     
     CONTAINS
 
